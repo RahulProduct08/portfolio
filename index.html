@@ -220,7 +220,10 @@
   .rec-dates b{color:var(--paper);font-weight:500}
   .rec-dates .lbl{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;opacity:.65}
   .rec-body h3{font-family:var(--disp);font-weight:600;font-size:21px;letter-spacing:-.01em}
-  .rec-body .org{font-family:var(--mono);font-size:12.5px;color:var(--accent);margin-top:3px;letter-spacing:.04em}
+  .rec-body .org{font-family:var(--mono);font-size:12.5px;color:var(--accent);margin-top:3px;letter-spacing:.04em;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .org-logo{height:22px;width:auto;max-width:100px;object-fit:contain;filter:brightness(0) invert(1);opacity:.7;transition:opacity .3s;flex-shrink:0}
+  .rec:hover .org-logo{opacity:1}
+  .org-badge{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:999px;border:1px solid var(--accent-deep);color:var(--accent);background:rgba(140,150,255,.08)}
   .rec-body p{margin-top:12px;font-size:14.5px;color:#B4B3BB;max-width:62ch}
   .riders{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
   .rider{
@@ -423,7 +426,7 @@
           </div>
           <div class="rec-body">
             <h3>Product Owner</h3>
-            <div class="org">Aspyr Labs and Services · Hyderabad</div>
+            <div class="org"><span class="org-badge">Aspyr Labs</span> Hyderabad</div>
             <p>Leading product for AI-driven insurance systems. Translating complex rules and data models into configurable products, and building expertise on insurance core platforms — modernizing policy, billing, and claims operations.</p>
             <div class="riders">
               <span class="rider">AI × Insurance</span>
@@ -441,7 +444,7 @@
           </div>
           <div class="rec-body">
             <h3>Product Manager</h3>
-            <div class="org">Mitt Arv · Hyderabad</div>
+            <div class="org"><img class="org-logo" src="https://home.mittarv.com/wp-content/uploads/2025/07/Logo-Full-White.svg" alt="Mitt Arv" loading="lazy" style="filter:none;opacity:.85"> Hyderabad</div>
             <p>Built product features for a niche product in a niche market. Learned what to do as a PM — and, more valuably, what not to. Stayed a chill guy throughout.</p>
             <div class="riders">
               <span class="rider">0→1 features</span>
@@ -475,7 +478,7 @@
           </div>
           <div class="rec-body">
             <h3>Product Manager Fellowship — Top Fellow</h3>
-            <div class="org">NextLeap</div>
+            <div class="org"><img class="org-logo" src="https://assets.nextleap.app/images/logo-black-908fbbee67f9.svg" alt="NextLeap" loading="lazy"></div>
             <p>Selected as Top Fellow in NextLeap's cohort-based PM Fellowship — a distinction with a 4% selection rate across cohorts.</p>
             <div class="riders">
               <span class="rider">Top 4%</span>
@@ -492,7 +495,7 @@
           </div>
           <div class="rec-body">
             <h3>Associate, Business Development</h3>
-            <div class="org">BYJU'S</div>
+            <div class="org"><img class="org-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Byju%27s_logo.svg" alt="BYJU'S" loading="lazy"></div>
             <p>Drove 10% growth in premium subscriptions in three months, a 30% lift in sales through new client acquisition, and a 10% reduction in churn via cross-functional loyalty programs.</p>
             <div class="riders">
               <span class="rider">Growth</span>
@@ -509,7 +512,7 @@
           </div>
           <div class="rec-body">
             <h3>Marketing — early reps</h3>
-            <div class="org">WATConsult · Arham Technologies</div>
+            <div class="org"><span class="org-badge">WATConsult</span><span class="org-badge">Arham Technologies</span></div>
             <p>Client servicing and digital strategy for brands like Schneider Electric, Jockey India, and Yamaha — driving double-digit gains in traffic, leads, and engagement.</p>
             <div class="riders">
               <span class="rider">Digital marketing</span>
@@ -527,7 +530,7 @@
             <div class="rec-dates"><span class="lbl">Term</span> <b>2018 – 2020</b></div>
             <div class="rec-body">
               <h3>MBA, Marketing</h3>
-              <div class="org">Symbiosis Institute of Business Management (SIBM), Bengaluru</div>
+              <div class="org"><img class="org-logo" src="https://www.sibmbengaluru.edu.in/wp-content/uploads/2024/09/SIBM_Bengaluru_logo.png" alt="SIBM Bengaluru" loading="lazy" style="height:28px"> Bengaluru</div>
               <p>Senior member of the Alumni Committee — bridging 2,000+ alumni and the institute, and helping run the first pan-India alumni meet across major metros.</p>
             </div>
           </article>
@@ -536,7 +539,7 @@
             <div class="rec-dates"><span class="lbl">Term</span> <b>2013 – 2017</b></div>
             <div class="rec-body">
               <h3>B.Tech, Electrical Engineering</h3>
-              <div class="org">Dr. B.C. Roy Engineering College</div>
+              <div class="org"><img class="org-logo" src="https://www.bcrec.ac.in/public/images/BCREC_Website.png" alt="Dr. B.C. Roy Engineering College" loading="lazy" style="height:28px"> BCREC, Durgapur</div>
               <p>Engineering foundations — including a vocational stint at NTPC's super-thermal plant, where the first product was explaining switchyards to twenty co-trainees.</p>
             </div>
           </article>
